@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "game.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,9 +13,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^1.6.0",
+    "eslint-config-ds82": "^1.0.0",
+    "eslint-plugin-jasmine": "^1.4.0",
     "jspm": "^0.16.11"
   },
   "jspm": {
+    "directories": {
+      "lib": "lib"
+    },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
